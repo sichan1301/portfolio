@@ -132,6 +132,11 @@ section {
   display: flex;
 }
 
+.navbar__menu__ul {
+  display: flex;
+  flex-direction: row;
+}
+
 .navbar__menu__item.active {
   border: 1px solid var(--color-white);
   border-radius: var(--size-border-radius);
@@ -461,6 +466,9 @@ section {
 
 #contact {
   background-color: var(--color-pink);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 30px;
 }
 
 .contact__title,
@@ -470,12 +478,13 @@ section {
 }
 
 .contact__title {
-  margin: 32px 0;
+  font-size: var(--font-medium);
+  margin: 6px 0;
 }
 
 .contact__links {
   font-size: var(--font-large);
-  margin: 24px 0;
+  margin: 1px 0;
 }
 
 .contact__links i {
@@ -511,6 +520,10 @@ section {
 
   .navbar__menu.open {
     display: block;
+  }
+  .navbar__menu__ul {
+    display: flex;
+    flex-direction: column;
   }
 
   .about__majors {
