@@ -270,7 +270,9 @@ section {
 
 .skillset__title {
   color: var(--color-white);
+  font-size: var(--font-large);
 }
+
 .skillset__left {
   flex-basis: 60%;
   padding: 20px 40px;
@@ -281,6 +283,7 @@ section {
   margin-bottom: 32px;
 }
 .skill__description {
+  margin-top: 4%;
   display: flex;
   justify-content: space-between;
 }
@@ -304,8 +307,15 @@ section {
   padding: 20px;
 }
 
+.tools__list {
+  font-size: var(--font-micro);
+}
 .etc {
   padding: 20px;
+}
+
+.etc__list {
+  font-size: var(--font-micro);
 }
 
 /* Works */
