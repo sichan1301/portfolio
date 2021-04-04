@@ -206,6 +206,10 @@ section {
   margin: 80px 40px;
 }
 
+.about__description {
+  font-size: var(--font-medium);
+}
+
 .major__icon {
   width: 170px;
   height: 170px;
@@ -478,7 +482,7 @@ section {
   background-color: var(--color-pink);
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 30px;
+  padding: 30px 0;
 }
 
 .contact__title,
@@ -507,6 +511,13 @@ section {
 
 /* For below 768px screen width */
 @media screen and (max-width: 768px) {
+  .home__title {
+    font-size: var(--font-medium);
+  }
+
+  .home__description {
+    font-size: var(--font-small);
+  }
   .navbar__toggle-btn {
     display: block;
   }
@@ -536,6 +547,13 @@ section {
     flex-direction: column;
   }
 
+  .about__description {
+    font-size: var(--font-small);
+  }
+  #about {
+    width: 100%;
+    padding: 4%;
+  }
   .about__majors {
     flex-direction: column;
   }
@@ -548,6 +566,24 @@ section {
     flex-direction: column;
   }
 
+  .section__container {
+    width: 100%;
+  }
+
+  .work__categories {
+    display: flex;
+    width: 100%;
+    margin: 40px auto;
+  }
+
+  .category__btn {
+    border: 1px solid var(--color-dark-white);
+    border-radius: var(--size-border-radius);
+    font-size: var(--font-small);
+    padding: 8px 0;
+    margin: 0 4px;
+    width: 200px;
+  }
   .project {
     flex-grow: 1;
   }
@@ -555,11 +591,5 @@ section {
   .testimonial__avatar {
     width: 80px;
     height: 80px;
-  }
-  .category__btn.active {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 15px;
   }
 }
