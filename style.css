@@ -588,6 +588,10 @@ section {
     margin: 0 4px;
     width: 200px;
   }
+
+  .category__count {
+    margin: 2px;
+  }
   .project {
     flex-grow: 1;
   }
