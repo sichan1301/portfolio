@@ -570,6 +570,10 @@ section {
     width: 100%;
   }
 
+  #works {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
   .work__categories {
     display: flex;
     width: 100%;
@@ -580,8 +584,7 @@ section {
     border: 1px solid var(--color-dark-white);
     border-radius: var(--size-border-radius);
     font-size: var(--font-small);
-    padding: 8px;
-    padding-right: 25px;
+    padding: 8px 25px;
     margin: 0 4px;
     width: 200px;
   }
