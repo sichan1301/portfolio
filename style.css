@@ -209,7 +209,7 @@ section {
 }
 
 .about__description {
-  font-size: var(--font-medium);
+  font-size: var(--font-regular);
 }
 
 .about__resume {
@@ -409,6 +409,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   background-color: black;
   width: 100%;
   height: 100%;
@@ -437,11 +438,15 @@ section {
   margin-top: 8px;
   transform: translateX(-50%);
   display: block;
-  width: 50px;
+  width: 60px;
   height: 2px;
   background-color: var(--color-dark-white);
 }
 
+.project__description p {
+  font-size: 13px;
+  color: #fff;
+}
 /*  Testimonial */
 
 #testimonials {
