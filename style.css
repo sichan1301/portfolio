@@ -195,9 +195,15 @@ section {
   font-size: var(--font-regular);
   font-weight: var(--weight-bold);
   margin: 24px;
-  padding: 8px 12px;
+  padding: 4px 8px;
   border: 2px solid var(--color-white);
   border-radius: var(--size-border-radius);
+}
+
+.home__contact a,
+.home__contact a:visited {
+  font-size: var(--font-micro);
+  color: #fff;
 }
 
 /* About Me */
@@ -212,7 +218,12 @@ section {
   font-size: var(--font-regular);
 }
 
-.about__resume {
+.about__description p:first-child {
+  font-weight: 800;
+  font-size: var(--font-medium);
+}
+
+.about__description .about__resume {
   padding-top: 1em;
   font-size: var(--font-small);
 }

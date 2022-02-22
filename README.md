@@ -8,7 +8,7 @@
 
 ![portfolio3](https://user-images.githubusercontent.com/49518734/147867962-0f2ea43b-d161-44bc-aab9-1ad7228fa8ce.JPG)
 
-![portfolio4](https://user-images.githubusercontent.com/49518734/147868023-0a0dc6e7-6919-4a4c-9ab4-85fb536978c8.JPG)
+![mywork](https://user-images.githubusercontent.com/49518734/155182021-431c9aa7-8408-4d1a-a5b3-9ed35aed0ef5.JPG)
 
 ![portfolio6](https://user-images.githubusercontent.com/49518734/147868094-5d7f9e04-9555-45c7-8e09-ff1bf2b8957f.JPG)
 
@@ -33,4 +33,4 @@
 
 ## 😃 배포된 URL
 
-- [https://sichan-businesscard.netlify.app/](https://sichan-businesscard.netlify.app/)
+- [https://sichan-portfolio.netlify.app/](https://sichan-portfolio.netlify.app/)

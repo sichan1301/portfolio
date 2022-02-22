@@ -46,12 +46,12 @@ toggleBtn.addEventListener('click', () => {
 
 // ContactMe 클릭 후 section 이동
 
-const contactMe = document.querySelector('.home__contact');
+// const contactMe = document.querySelector('.home__contact');
 
-contactMe.addEventListener('click', ()=> {
-    const scrollTo = document.querySelector('#contact');
-    scrollTo.scrollIntoView({behavior:'smooth'});
-});
+// contactMe.addEventListener('click', ()=> {
+//     const scrollTo = document.querySelector('#contact');
+//     scrollTo.scrollIntoView({behavior:'smooth'});
+// });
 
 
 // 스크롤하면 투명하게 넘어가기
