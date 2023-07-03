@@ -103,5 +103,3 @@ workBtnContainer.addEventListener('click',(event) => {
     },300)
 
 });
-
-ㅋ
